@@ -6,7 +6,7 @@ background: '/img/bg-contact.jpg'
 form: true
 ---
 <p>Want to get in touch? Fill out the form below to send me a message and I will get back to you as soon as possible!</p>
-<form id="contactform" name="message" id="contactForm" https://formspree.io/f/xwkgrver" method="POST">
+<form id="contactform" name="sentMessage" id="contactForm" https://formspree.io/f/xwkgrver" method="POST">
   <div class="control-group">
     <div class="form-group floating-label-form-group controls">
       <label>Name</label>
@@ -31,7 +31,7 @@ form: true
   <div class="control-group">
     <div class="form-group floating-label-form-group controls">
       <label>Message</label>
-      <textarea rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
+      <textarea name="message" rows="5" class="form-control" placeholder="Message" id="message" required data-validation-required-message="Please enter a message."></textarea>
       <p class="help-block text-danger"></p>
     </div>
   </div>
