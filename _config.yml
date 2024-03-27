@@ -2,7 +2,7 @@ title:              Conference Out
 email:              chawla5397@gmail.com
 description:        My Blogs
 author:             Bhavya Chawla
-baseurl:            "https://github.com/BhavyaChawlaGit/Conference-Out-Blogs"
+baseurl:            "/Conference-Out-Blogs"
 url:                "https://bhavyachawlagit.github.io/Conference-Out-Blogs/"
 
 # Social Profiles
