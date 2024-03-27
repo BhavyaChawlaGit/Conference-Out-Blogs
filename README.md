@@ -43,11 +43,11 @@ Copyright 2013-2021 Start Bootstrap LLC. Code released under the [MIT](https://g
 
 ---
 
-For anyone interested, to adjust the contact form to work with Formspree free tier [here](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll/issues/167#issuecomment-846540715).
--Copy Ciraben's [contact.html](https://github.com/ciraben/startbootstrap-clean-blog-jekyll/blob/contact-fix/contact.html)
--Register a Formspree account
--Verify my email with Formspree
--Make a new form in Formspree
--Copy the URL of the new form
--In the contact form's HTML tag, replace the URL in action="https://formspree.io/{{ site.email }} with the copied URL
--Add name="message" to the textarea tag attribute of the message field.
+For anyone interested, to adjust the contact form to work with Formspree free tier [here](https://github.com/StartBootstrap/startbootstrap-clean-blog-jekyll/issues/167#issuecomment-846540715).  
+- Copy Ciraben's [contact.html](https://github.com/ciraben/startbootstrap-clean-blog-jekyll/blob/contact-fix/contact.html)  
+- Register a Formspree account
+- Verify my email with Formspree
+- Make a new form in Formspree
+- Copy the URL of the new form
+- In the contact form's HTML tag, replace the URL in action="https://formspree.io/{{ site.email }} with the copied URL
+- Add name="message" to the textarea tag attribute of the message field.
