@@ -1,15 +1,15 @@
-title:              Clean Blog
-email:              your-email@example.com
-description:        A Blog Theme by Start Bootstrap
-author:             Start Bootstrap
+title:              Conference Out
+email:              chawla5397@gmail.com
+description:        My Blogs
+author:             Bhavya Chawla
 baseurl:            "/startbootstrap-clean-blog-jekyll"
-url:                "https://startbootstrap.github.io"
+url:                "https://bhavyachawlagit.github.io/Conference-Out-Blogs/"
 
 # Social Profiles
-twitter_username:   SBootstrap
-github_username:    StartBootstrap
-facebook_username:  StartBootstrap
-instagram_username:  
+twitter_username:   
+github_username:    BhavyaChawlaGit
+facebook_username:  
+instagram_username:  Chavilism
 linkedin_username:
 
 # Add your google-analytics ID here to activate google analytics
