@@ -7,45 +7,43 @@ background: '/img/posts/HealthcareDashboard.jpg'
 tags: [dashboard, healthcare, data analysis, Power BI, patient management]
 ---
 
----
-layout: post
-title: "Enhancing Healthcare: Optimizing Patient Waitlists Using Power BI Dashboards"
-author: Aniket Jayant
----
 
-<h2>Enhancing Healthcare: Optimizing Patient Waitlists Using Power BI Dashboards</h2>
-<p><strong>Aniket Jayant</strong></p>
-<p>Follow</p>
-<p><em>8 min read • Dec 5, 2023</em></p>
+<p>In today's healthcare environment, managing patient waitlists for inpatient and outpatient services is more critical than ever. Power BI has become an indispensable tool in transforming healthcare operations by providing data-driven insights. This blog explores a Power BI dashboard I developed to optimize patient waitlists, showcasing how healthcare providers can streamline operations, allocate resources effectively, and improve the quality of care.</p>
 
-<p>Efficient management of patient waitlists is a cornerstone in today's healthcare infrastructure. Power BI stands out as a transformative tool in healthcare operations, offering profound insights through data visualization. This article explores a Power BI dashboard specifically tailored to enhance the efficiency of patient waitlists. By leveraging this technology, healthcare professionals can streamline patient administration, better allocate resources, and ultimately improve the level of care they deliver. Discover how this innovation is reshaping the management of waitlists, and significantly boosting healthcare outcomes and patient satisfaction.</p>
+<h2>Project Steps</h2>
+<ol>
+    <li>Data Gathering</li>
+    <li>Data Transforming and Modelling</li>
+    <li>Table Connections</li>
+    <li>Layout and Designing</li>
+    <li>Analysis and Visualization</li>
+</ol>
 
-<h3>Project Overview: Key Steps</h3>
-<ul>
-  <li>Data Collection</li>
-  <li>Data Transformation and Modeling</li>
-  <li>Table Linking</li>
-  <li>Dashboard Layout and Design</li>
-  <li>Data Analysis and Visualization</li>
-</ul>
+<img class="img-fluid" src="/Conference-Out-Blogs/img/posts/HealthcareDashboard.jpg"> 
+<span class="caption text-muted">Summary Page</span>
 
-<h4>Data Collection</h4>
-<p>Data was meticulously compiled from Kaggle, featuring detailed records such as patient admissions, discharges, ages, whether they were adults, types of specialty visits (e.g., cardiology, general surgery, psychology), and stay durations. These datasets were organized into distinct tables for inpatient and outpatient services from 2018 to 2021, setting the stage for an extensive Power BI-driven analysis and enhancement in healthcare analytics proficiency.</p>
 
-<h4>Data Transformation and Modeling</h4>
-<p>Initiating with a basic folder connector in Power BI, I imported the dataset stored in the directory. Using Power Query, I standardized data types, assessed volumes, and removed duplicates for data consistency. Both tables were merged into a unified 'All_data' table, correcting inconsistencies by adding a 'case_type' column to the outpatient data, thereby aligning it with the inpatient data. This adjustment improved clarity post-merge, facilitating more effective further analysis.</p>
+<h3>Data Gathering</h3>
+<p>My journey began with gathering comprehensive healthcare datasets from Kaggle, which included details such as patient admission and release timestamps, ages, adult status, types of specialty visits, and stay durations. I segmented these datasets into two, categorizing them into inpatient and outpatient records spanning from 2018 to 2021. This division was crucial for my subsequent analyses and honing my skills in healthcare analytics using Power BI.</p>
 
-<h4>Table Linking</h4>
-<p>A 'Mapping_Specialty' table was created to categorize various medical specialties into clear groups, such as grouping Haematology under 'Blood-related group' and Orthopaedics under 'Bones-related group'. This categorization helped simplify the dashboard interface, linking it with the 'All_data' table via the 'Speciality' column to enhance the dashboard’s analytical utility.</p>
+<h3>Data Transforming and Modelling</h3>
+<p>Using Power BI's simple folder connector, I imported data stored in various directories. In Power Query, I tackled data transformations, ensuring appropriate data types, volume checks, and cleaning up redundancies. A critical step was merging the tables into 'All_data' and resolving discrepancies by introducing a 'case_type' column in the outpatient table to align it with inpatient data. This differentiation was vital for accurate, appended data analysis later in Power BI.</p>
 
-<h4>Dashboard Layout and Design</h4>
-<p>The design process involved careful planning of visual elements to ensure effective information delivery. I designed a blueprint starting with a title and Key Performance Indicators (KPIs) to highlight current and comparative past year waitlist data. The dashboard features a pie chart for case type distribution, an age demographic bar chart, and a top 5 specialties filter by averages and medians considering outliers. A comprehensive monthly trend from 2018 to 2021 for different case types was also integrated.</p>
+<h3>Table Connections</h3>
+<p>I created a specialty table to categorize patient specialties into coherent groups, enhancing the dashboard's clarity. For instance, I grouped Haematology under 'Blood-related' and Orthopaedics under 'Bone-related' categories. These categories helped streamline the visual presentation and facilitated insightful analysis through a well-connected data model in the Power BI dashboard.</p>
 
-<p>A secondary page enriches the dashboard by providing detailed patient data with various interactive filters, allowing for deeper data exploration. The design was initially drafted in PowerPoint after selecting a color scheme online, using shapes to outline space for charts and filters, and refining the background with gradients and borders to optimize visual appeal.</p>
+<h3>Layout and Designing</h3>
+<p>Designing the dashboard involved strategic placement of visual elements to effectively communicate key information. I started with a blueprint that included a title, Key Performance Indicators (KPIs), and visual representations like pie charts and bar graphs to depict various data points, such as case type distribution and age profiles. A secondary page provided detailed patient information, which included multiple filters to aid in navigating the data more effectively.</p>
 
-<h4>Data Analysis and Visualization</h4>
-<p>The analysis began by framing key questions about waitlist comparisons over years, case type distributions, stay durations by age, top waitlisted specialties, and monthly trends. These insights reveal a rising trend in outpatient visits, a focus on pediatric care in top waitlisted specialties, and stable inpatient and day-case figures. Factors influencing these trends include medical advancements, patient preferences, and policy shifts favoring outpatient care.</p>
+<h3>Background Layout</h3>
+<p>To enhance my design skills, I researched various dashboard designs on Google and used a color extraction tool to select an appropriate palette. Using PowerPoint, I designed the background by creating shapes to designate spaces for charts and filters, which I then enhanced with gradients and borders.</p>
 
-<p>In conclusion, the analysis highlighted a shift towards more outpatient treatments and emphasized the need for focused pediatric care. The insights drawn are crucial for healthcare providers to adapt to changing demands and efficiently allocate resources.</p>
+<h3>Analysis and Visualization</h3>
+<p>My analysis began by posing several questions about the current and previous years' waitlists, case type distribution, and patient demographics. I used DAX expressions to calculate and display these metrics in the dashboard’s KPIs. The visualization tools helped highlight trends and patterns, such as the increase in outpatient visits and the specific needs of different age groups.</p>
 
-<p>The full Power BI report is accessible for further insights. Feedback and suggestions for improvement are encouraged. If you found this enlightening, please share your thoughts in the comments below and connect with me on LinkedIn. Thank you for your time.</p>
+<h2>Conclusion</h2>
+<p>Through this project, I've gained profound insights into the shifts in healthcare service demands, particularly the rise in outpatient care and the focus on pediatric specialties. These trends are crucial for healthcare providers to understand as they strive to meet the evolving needs of their patients and improve service delivery.</p>
+
+<p>View the full Power BI report <a href="#">here</a>. I welcome comments and suggestions for further improvements. If you found this insightful, please leave a comment, share, and feel free to connect with me on <a href="https://www.linkedin.com/">LinkedIn</a>.</p>
+
+<p>Thank you for reading!</p>
