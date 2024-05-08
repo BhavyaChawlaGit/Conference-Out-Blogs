@@ -10,6 +10,14 @@ tags: [dashboard, healthcare, data analysis, Power BI, patient management]
 
 <p>In today's healthcare environment, managing patient waitlists for inpatient and outpatient services is more critical than ever. Power BI has become an indispensable tool in transforming healthcare operations by providing data-driven insights. This blog explores a Power BI dashboard I developed to optimize patient waitlists, showcasing how healthcare providers can streamline operations, allocate resources effectively, and improve the quality of care.</p>
 
+
+<img class="img-fluid" src="/Conference-Out-Blogs/img/posts/3.jpg"> 
+<span class="caption text-muted">Summary Page</span>
+
+<img class="img-fluid" src="/Conference-Out-Blogs/img/posts/3_2.jpg"> 
+<span class="caption text-muted">Detailed Page Page</span>
+
+
 <h2>Project Steps</h2>
 <ol>
     <li>Data Gathering</li>
@@ -19,24 +27,62 @@ tags: [dashboard, healthcare, data analysis, Power BI, patient management]
     <li>Analysis and Visualization</li>
 </ol>
 
-<img class="img-fluid" src="/Conference-Out-Blogs/img/posts/HealthcareDashboard.jpg"> 
-<span class="caption text-muted">Summary Page</span>
-
 
 <h3>Data Gathering</h3>
-<p>My journey began with gathering comprehensive healthcare datasets from Kaggle, which included details such as patient admission and release timestamps, ages, adult status, types of specialty visits, and stay durations. I segmented these datasets into two, categorizing them into inpatient and outpatient records spanning from 2018 to 2021. This division was crucial for my subsequent analyses and honing my skills in healthcare analytics using Power BI.</p>
+<p>My journey began with gathering comprehensive healthcare datasets from Kaggle, 
+    which included details such as patient admission and release timestamps, ages, adult status, types of specialty visits, 
+    and stay durations. Dataset categorized into two, inpatient and outpatient records 
+    spanning from 2018 to 2021. This division was crucial for my subsequent analyses and honing my skills in 
+    healthcare analytics using Power BI.</p>
 
 <h3>Data Transforming and Modelling</h3>
-<p>Using Power BI's simple folder connector, I imported data stored in various directories. In Power Query, I tackled data transformations, ensuring appropriate data types, volume checks, and cleaning up redundancies. A critical step was merging the tables into 'All_data' and resolving discrepancies by introducing a 'case_type' column in the outpatient table to align it with inpatient data. This differentiation was vital for accurate, appended data analysis later in Power BI.</p>
+<p>Using Power BI's simple folder connector, 
+    I imported data stored in various directories. 
+    In Power Query, I tackled data transformations, ensuring appropriate data types, volume checks, and 
+    cleaning up redundancies. A critical step was merging the tables into 'All_data' and 
+    resolving discrepancies by introducing a 'case_type' column in the outpatient table to align it with inpatient data. 
+    This differentiation was vital for accurate, appended data analysis later in Power BI.</p>
+
+<img class="img-fluid" src="/Conference-Out-Blogs/img/posts/3_3.jpg"> 
+<span class="caption text-muted">Appending tables into All_data</span>
 
 <h3>Table Connections</h3>
-<p>I created a specialty table to categorize patient specialties into coherent groups, enhancing the dashboard's clarity. For instance, I grouped Haematology under 'Blood-related' and Orthopaedics under 'Bone-related' categories. These categories helped streamline the visual presentation and facilitated insightful analysis through a well-connected data model in the Power BI dashboard.</p>
+<p>I created a specialty table to categorize patient specialties into coherent groups, 
+    enhancing the dashboard's clarity. For instance, 
+    I grouped Haematology under 'Blood-related' and Orthopaedics under 'Bone-related' categories. 
+    These categories helped streamline the visual presentation and facilitated insightful analysis through 
+    a well-connected data model in the Power BI dashboard.</p>
+
+<img class="img-fluid" src="/Conference-Out-Blogs/img/posts/3_4.jpg"> 
+<span class="caption text-muted">Mapping_Specialty</span>
 
 <h3>Layout and Designing</h3>
-<p>Designing the dashboard involved strategic placement of visual elements to effectively communicate key information. I started with a blueprint that included a title, Key Performance Indicators (KPIs), and visual representations like pie charts and bar graphs to depict various data points, such as case type distribution and age profiles. A secondary page provided detailed patient information, which included multiple filters to aid in navigating the data more effectively.</p>
+<p>Designing the dashboard involved strategic placement of visual elements to effectively communicate key information. 
+    I started with a blueprint that included a title, Key Performance Indicators (KPIs), 
+    and visual representations like pie charts and bar graphs to depict various data points, 
+    such as case type distribution and age profiles. 
+    A secondary page provided detailed patient information, 
+    which included multiple filters to aid in navigating the data more effectively.</p>
+
+<img class="img-fluid" src="/Conference-Out-Blogs/img/posts/3_7.jpg">
+<img class="img-fluid" src="/Conference-Out-Blogs/img/posts/3_9.jpg">
+<img class="img-fluid" src="/Conference-Out-Blogs/img/posts/3_8.jpg">
+<img class="img-fluid" src="/Conference-Out-Blogs/img/posts/3_10.jpg"> 
+
+
 
 <h3>Background Layout</h3>
-<p>To enhance my design skills, I researched various dashboard designs on Google and used a color extraction tool to select an appropriate palette. Using PowerPoint, I designed the background by creating shapes to designate spaces for charts and filters, which I then enhanced with gradients and borders.</p>
+<p>To enhance my design skills, 
+    I researched various dashboard designs on Google and used a color extraction tool to select an appropriate palette. 
+    Using PowerPoint, I designed the background by creating shapes to designate spaces for charts and filters, 
+    which I then enhanced with gradients and borders.</p>
+
+<img class="img-fluid" src="/Conference-Out-Blogs/img/posts/3_5.jpg"> 
+<span class="caption text-muted">Background for Summary page</span>
+
+<img class="img-fluid" src="/Conference-Out-Blogs/img/posts/3_6.jpg"> 
+<span class="caption text-muted">Background for Detail page</span>
+
 
 <h3>Analysis and Visualization</h3>
 <p>My analysis began by posing several questions about the current and previous years' waitlists, case type distribution, and patient demographics. I used DAX expressions to calculate and display these metrics in the dashboard’s KPIs. The visualization tools helped highlight trends and patterns, such as the increase in outpatient visits and the specific needs of different age groups.</p>
